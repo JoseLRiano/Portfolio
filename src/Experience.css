@@ -1,0 +1,65 @@
+.Experience {
+    min-height: 100vh;
+    height: auto;
+}
+.Experience-skills {  
+    position: relative;  
+    margin-left: 15vw;
+    width: 70vw;
+    height: auto;
+    background: #FFFFFF;
+    margin-top: -10rem;
+    border-radius:  1rem;
+    border: 1px  solid #E6ECF8;
+    padding: 3rem 0;
+    -webkit-box-shadow: 1px 3px 3px 1px #ccc;
+    -moz-box-shadow: 1px 3px 3px 1px #ccc;
+    box-shadow: 1px 3px 3px 1px #ccc;
+}
+.Experience-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding-top: 2rem
+}
+.Experience-text {
+    font-size: 1.2rem;
+    font-weight: 300;
+    /* padding-bottom: 1rem; */
+}
+img.Experience-icon {
+    width: 100px;
+    height: 100px;
+    padding-top: 1rem;
+}
+.Skills-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.Experience-icon-skills img{
+    width: 5.5rem;
+    padding: 1.5rem;
+}
+.Experience-title-tools {
+    color: #458cc6;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.Experience-tools {
+    /* padding-bottom: 1rem; */
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.Experience-list {
+    list-style: none;
+    padding-bottom: 2rem;
+}
+
+.Experience-list li {
+    padding: 0.3rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+}

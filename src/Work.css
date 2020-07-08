@@ -1,0 +1,85 @@
+
+.Work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    margin: 2rem 1rem;
+}
+.Work-examples {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-gap: 0.5rem 1rem;
+    /* align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; */
+}
+
+/* figure {
+    width: 100%;
+    position: relative;
+} */
+
+.Work-box {
+    position: relative;
+    /* width: 100%; */
+    /* min-height: 40vh; */
+    /* margin: 0 1rem; */
+}
+
+.Box-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    -webkit-box-shadow: 1px 3px 3px 1px #ccc;
+    -moz-box-shadow: 1px 3px 3px 1px #ccc;
+    box-shadow: 1px 3px 3px 1px #ccc;
+}
+
+.Box-hide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.45s ease-in-out;
+}
+.Box-project-title {
+    width: 80%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.Box-btn {
+    font-size: 1rem;
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+    padding: 0.7rem;
+    color: white;
+    -webkit-box-shadow: 1px 1px 0 1px rgb(36, 32, 32);
+    -moz-box-shadow: 1px 1px 0 1px rgb(36, 32, 32);
+    box-shadow: 1px 1px 0 1px rgb(36, 32, 32);
+} 
+
+.Box-hide .Box-btn:focus {
+    outline: 0;
+}
+.Box-hide .Box-btn:hover {
+    background-color: azure;
+    color: #000;
+}
+
+.Box-hide:hover {
+    opacity: 1;
+    color: white;
+    background-color: #458cc6;
+    border-radius: 12px;
+}

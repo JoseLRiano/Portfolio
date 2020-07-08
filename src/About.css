@@ -1,0 +1,22 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+    min-height: 60vh;
+    background: #57B3FC;
+    color: #FFFFFF;
+}
+.About-title {
+    font-size: 2rem;
+    font-weight: 900;
+    word-spacing: 2px;
+}
+
+.About-text {
+    margin-bottom: 12rem;
+    width: 60vw;
+    font-weight: 400;
+    word-spacing: 2px;
+    font-size: 1.3rem;
+}

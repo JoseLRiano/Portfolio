@@ -1,0 +1,47 @@
+.Header {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #0a0a0a;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 3rem;
+}
+.Header-Text {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.Header-Avatar {
+    width: 300px;
+}
+
+.Header-Button {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    border: 2px solid #0a0a0a;
+    font-size: 1.3rem;
+    box-sizing: inherit;
+    transition: all 0.5s ease;
+}
+.Header-Button:hover {
+    background-color: #57B3FC;
+    color: #FFFFFF;
+    border: 2px solid #1f74ba;
+    cursor: pointer;
+}
+.Header-Button:hover .Header-Icon::before {
+    content: "\f063";
+}
+ 
+.Header-Button .Header-Icon {
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+.Header-Button:focus {
+    outline: none;
+}
+
