@@ -6,27 +6,29 @@
     flex-direction: column;
     padding-top: 2rem;
     margin: 2rem 1rem;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.Work-title {
+    text-align: center;
+}
+.Work-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
 }
 .Work-examples {
+    margin: 4rem 0;
     width: 80%;
     display: grid;
-    grid-template-columns: repeat(3, 30%);
-    grid-gap: 0.5rem 1rem;
-    /* align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; */
+    grid-template-columns: repeat(3, 32.5%);
+    grid-gap: 0.7rem 1rem;
 }
-
-/* figure {
-    width: 100%;
-    position: relative;
-} */
 
 .Work-box {
     position: relative;
-    /* width: 100%; */
-    /* min-height: 40vh; */
-    /* margin: 0 1rem; */
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid #ccc;
 }
 
 .Box-image {
@@ -44,6 +46,7 @@
     justify-content: center;
     flex-direction: column;
     position: absolute;
+    text-align: center;
     top: 0;
     left: 0;
     width: 100%;
@@ -58,16 +61,24 @@
 }
 
 .Box-btn {
+    margin-top: 1rem;
     font-size: 1rem;
     background: none;
     border: 1px solid #ccc;
     border-radius: 2rem;
-    padding: 0.7rem;
+    padding: 0.8rem 1.2rem;
     color: white;
-    -webkit-box-shadow: 1px 1px 0 1px rgb(36, 32, 32);
-    -moz-box-shadow: 1px 1px 0 1px rgb(36, 32, 32);
-    box-shadow: 1px 1px 0 1px rgb(36, 32, 32);
+}
+.Work-box img{
+    transition: transform .45s ease;
 } 
+.Work-box:hover img{
+    transform: scale(1.5);
+}
+
+.Box-hide .Box-arrow {
+    padding: 0 0.5rem;
+}
 
 .Box-hide .Box-btn:focus {
     outline: 0;
@@ -75,11 +86,36 @@
 .Box-hide .Box-btn:hover {
     background-color: azure;
     color: #000;
+    font-weight: 600;
 }
 
 .Box-hide:hover {
     opacity: 1;
     color: white;
-    background-color: #458cc6;
+    background-color: #551A8B;
     border-radius: 12px;
+}
+
+.Work-btn {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border: 1px solid rgb(87, 87, 87);
+    text-decoration: none;
+    transition: .5s ease;
+}
+.Work-btn i {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.Work-btn:focus{
+    outline: none;
+}
+.Work-btn:hover {
+    cursor: pointer;
+    background-color: #551A8B;
+    color: #fff;
 }

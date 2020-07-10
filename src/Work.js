@@ -23,19 +23,23 @@ export default function Work(){
                         <h1 className="Box-project-title">
                             React App that consumes API and displays relevant Data
                         </h1>
-                        <button className="Box-btn">Visit Website</button>
+                        <button className="Box-btn">
+                            <span>Visit Website</span>
+                            <span className="Box-arrow"><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>
+                        </button>
                     </div>
                 </div>
         );
     return (
         <div className="Work">
-            <div>
+            <div className="Work-title">
                 <h1>My Recent Work</h1>
                 <p>These are some of my projects I've worked on recently.</p>
             </div>
             <div className="Work-examples">
                 {projects}
             </div>
+            <a className="Work-btn" href="https://github.com/JoseLRiano" target="_blank"><i className="fa fa-github" aria-hidden="true"></i> See more on GitHub</a>
         </div> 
     );
 }
