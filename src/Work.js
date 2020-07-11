@@ -9,19 +9,19 @@ import './Work.css';
 
 export default function Work(){
     let pics = [
-        {name: 'sebastian website image', image: sebas }, 
-        {name: 'adoption app image', image: adoption}, 
-        {name: 'Lights Out game image', image: game}, 
-        {name: 'list image App', image: list}, 
-        {name: 'pokemon image App', image: poke},
-        {name: 'Joke list image App', image: jokes}];
+        {name: 'sebastian website image', image: sebas, description: 'Photgrapher Website using React' }, 
+        {name: 'adoption app image', image: adoption ,description: 'Adoption App consumes petfinder API' }, 
+        {name: 'Lights Out game image', image: game, description: 'React Lights Out game' }, 
+        {name: 'list image App', image: list, description: 'Grocery List App made using React Hooks' }, 
+        {name: 'pokemon image App', image: poke, description: 'Pokemon card game using API' },
+        {name: 'Joke list image App', image: jokes, description: 'List of Jokes uses API to fetch new Jokes and local storage' }];
     const projects =
         pics.map((project, i) => 
                 <div className="Work-box" key={i}>      
                     <img className="Box-image" src={project.image}  alt={project.name} />
                     <div className="Box-hide">
                         <h1 className="Box-project-title">
-                            React App that consumes API and displays relevant Data
+                            {project.description}
                         </h1>
                         <button className="Box-btn">
                             <span>Visit Website</span>
@@ -31,7 +31,7 @@ export default function Work(){
                 </div>
         );
     return (
-        <div className="Work">
+        <div id="Work" className="Work">
             <div className="Work-title">
                 <h1>My Recent Work</h1>
                 <p>These are some of my projects I've worked on recently.</p>

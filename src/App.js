@@ -7,7 +7,9 @@ import Experience from './Experience';
 import Work from './Work';
 import Contact from './Contact';
 import Footer from './Footer';
+import Success from './Success';
 import './App.css';
+
 
 
 function App() {
@@ -25,6 +27,7 @@ function App() {
             <Footer />
           </Route>
           <Route exact path="/Contact" component={Contact} />
+          <Route exact path="/Success" component={Success} />
         </Switch>
       </div>
     </Router>

@@ -21,15 +21,19 @@
     padding: 0 2rem;
     font-size: 1.3rem;
     font-weight: 500;
+    color: #000;
+    transition: .45s ease;
 }
+
 .Nav-item:hover{
     cursor: pointer;
+    color: #57B3FC;
 }
 .Nav-item::after {
     width: 0%;
     height: 2px;
     display: block;
-    background-color: #1f74ba;
+    background-color: #57B3FC;
     content: " ";
     position: absolute;
     top: 44px;

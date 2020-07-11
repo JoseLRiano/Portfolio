@@ -56,18 +56,20 @@
 }
 .Box-project-title {
     width: 80%;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .Box-btn {
     margin-top: 1rem;
     font-size: 1rem;
     background: none;
-    border: 1px solid #ccc;
+    border: 2px solid #551A8B;
     border-radius: 2rem;
     padding: 0.8rem 1.2rem;
     color: white;
+    transition: .5s ease;
 }
 .Work-box img{
     transition: transform .45s ease;
@@ -84,15 +86,14 @@
     outline: 0;
 }
 .Box-hide .Box-btn:hover {
-    background-color: azure;
-    color: #000;
-    font-weight: 600;
+    background-color: #551A8B;
+    color: #fff;
 }
 
 .Box-hide:hover {
     opacity: 1;
     color: white;
-    background-color: #551A8B;
+    background-color: #141c3a;
     border-radius: 12px;
 }
 
