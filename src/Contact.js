@@ -16,7 +16,7 @@ export default function Contact(){
         e.preventDefault(); 
         let variables = { reply_to: email, from_name: name, message_html: message};
 
-        emailjs.send('gmail','template_fegZ16Dv',variables,'user_kq7a3w5yQrjk2fd23F6o1')
+        emailjs.send('gmail','template',variables,'user')
         .then((res) => {
         return(<div>{history.push("/Success")}</div>)
         },(error) => {
