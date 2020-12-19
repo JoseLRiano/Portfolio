@@ -14,21 +14,21 @@ export default function Experience(){
             <div id="Experience" className="Experience-skills">
                <div className="Skills-box">
                     <img className="Experience-icon" src={tag} alt="icon" />
-                    <h2 className="Experience-title">Front-end Developer</h2>
+                    <h2 className="Experience-title">Web Developer</h2>
                     <p className="Experience-text">
                         I like to create things from scratch, I enjoy coding and bringing ideas to life in the browser.
                     </p>
                     <h3 className="Experience-title-tools">
-                        This are some of the langua
-                        gues and tools I use:
+                        These are some of the Languagues/Frameworks/Libraries I speak:
                     </h3>
                     <p className="Experience-tools">
-                        JavaScript, Reactjs, HTML, CSS, Java 
+                        JavaScript | React | NodeJS | Express | Java | Spring | HTML | CSS(SASS)
                     </p>
                     <ul className="Experience-list">
                     <h3 className="Experience-title-tools">
                         Dev Tools:
                     </h3>
+                        <li>Gatsby</li>
                         <li>Visual Studio</li>
                         <li>Bootstrap</li>
                         <li>Responsive Design</li>

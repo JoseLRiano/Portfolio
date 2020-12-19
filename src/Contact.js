@@ -27,7 +27,7 @@ export default function Contact(){
     return (
         <div className="Contact">
             <div className="Contact-nav">
-                <img className="Nav-logo" src={logo} alt="logo" />
+                <Link to="/" ><img className="Nav-logo" src={logo} alt="logo" /></Link>
                 <Link className="Contact-back" to="/"><i className="fa fa-times" aria-hidden="true"></i></Link>
             </div>
             <div className="Contact-main">

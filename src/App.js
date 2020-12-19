@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import Header from './Header';
 import Nav from './Nav';
 import About from './About';
@@ -28,6 +28,7 @@ function App() {
           </Route>
           <Route exact path="/Contact" component={Contact} />
           <Route exact path="/Success" component={Success} />
+          <Route exact path="/index.html"><Redirect to="/" /></Route>
         </Switch>
       </div>
     </Router>

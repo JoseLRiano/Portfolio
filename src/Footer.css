@@ -5,8 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #57B3FC;
-
+    background-image: linear-gradient(to bottom, #48c6ef 0%, #6f86d6 100%);
     padding-bottom: 4rem;
 }
 .Footer .logo{
@@ -15,7 +14,7 @@
     /* padding: 1rem; */
 }
 .Footer-media {
-    margin: 3rem 0;
+    margin-bottom: 3rem;
     text-decoration: none;
     font-size: 1.8rem;
 }
@@ -34,6 +33,6 @@
     border: 1px solid #551A8B;
 }
 .Footer-credit {
-    color: #000;
+    color: #FFF;
     word-spacing: 2px;
 }

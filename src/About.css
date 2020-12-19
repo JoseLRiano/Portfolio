@@ -4,11 +4,12 @@
     align-items: center;
     width: 100%;
     padding-top: 10vh;
-    min-height: 60vh;
-    background: #57B3FC;
-    color: rgb(240, 240, 240);
+    min-height: 50vh;
+    background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+    color: #FFF;
 }
-.About-title {
+.About-title { 
+    text-align: center;
     font-size: 2rem;
     font-weight: 900;
     word-spacing: 2px;
@@ -21,4 +22,12 @@
     font-weight: 400;
     word-spacing: 2px;
     font-size: 1.3rem;
+}
+
+@media screen and (max-width: 767px){
+
+    .About-text{
+        width: 90vw;
+        margin-bottom: 8rem;
+    }
 }

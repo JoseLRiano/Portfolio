@@ -1,9 +1,6 @@
 .Contact {
     width: 100vw;
     height: 100vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 .Contact .Contact-nav { 
     display: flex;
@@ -15,7 +12,7 @@
 }
 .Contact-nav .Contact-back {
     font-size: 2rem;
-    color: #57B3FC;
+    color: #000;
     margin-right: 4rem;
 }
 .Contact-main {
@@ -66,7 +63,7 @@
 
 .message textarea{
     font-family: inherit;
-   font-size: inherit;
+    font-size: inherit;
     outline: none;
     width: 100%;
     min-height: 6rem;
@@ -80,4 +77,32 @@
     background:none;
     margin-top: 2rem;
     padding: 1rem 4rem;
+}
+
+@media screen and (max-width: 767px) {
+   
+    .Contact-form {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        width: 90%;
+    }
+    .Form-column{
+        display: block;
+    }
+    
+    .Form-item{
+        width: fit-content;
+    }
+    .Form-item input{
+        width: 100%;
+        margin: 0;
+        margin-top: 0;
+        padding: 0.7rem;
+    } 
+    .Work-btn{
+        margin-top: 0;
+    } 
+    .message{
+        margin: 0;
+    }
 }
